@@ -1,0 +1,6 @@
+Server: web-server-01
+Env:Production
+Status:Active
+IP:10.0.0.25 
+Name:Adinarayana
+key:value
