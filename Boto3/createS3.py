@@ -7,3 +7,10 @@ s3.create_bucket(
 )
 print("Bucket is created",bucket_name)
 
+s3.upload_file(
+    Filename="Boto3/test.txt",
+    Bucket=bucket_name,
+    Key="test.txt" 
+)
+print("File uploaded successfully")
+
