@@ -4,3 +4,5 @@ logging.info("App Started")
 logging.warning("Disk ussage is high")
 logging.error("DB connection filed")
 logging.debug("Debugging")
+
+print(__name__)
