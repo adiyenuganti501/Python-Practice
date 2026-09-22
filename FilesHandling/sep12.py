@@ -5,6 +5,6 @@ try:
 except Exception as e:
     print(f"The error is {e}")
 else:
-    print(c)
+    print(f"The output is {c}")
 finally:
     print("the execution is completed")
