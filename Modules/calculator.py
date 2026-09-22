@@ -3,3 +3,9 @@ def add(a, b):
 
 def subtract(a, b):
     return a - b
+
+def div(a, b):
+    return a/b
+
+def sqr(a):
+    return a*a 

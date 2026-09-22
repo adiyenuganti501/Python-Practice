@@ -1,3 +1,5 @@
 import calculator
 print(calculator.add(10, 5))
 print(calculator.subtract(10, 5))
+print(calculator.div(19,3))
+print(f"Sqr is {calculator.sqr(6)}")
