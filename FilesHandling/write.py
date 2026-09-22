@@ -7,4 +7,5 @@ with open("write.txt","w") as file:
 with open("write.txt","a") as file:
     file.write("--------from Append Mode--------\n")
     file.write("Hello Nanna\n")
-    file.write("Practice in Sept 22")
+    file.write("Practice in Sept 22\n")
+    file.write("TEST")
