@@ -34,3 +34,8 @@ marks = [35, 80, 45, 20, 90, 55]
 
 ress= ["pass" if mark>= 35 else "fail" for mark in marks]
 print(ress)
+
+
+marks = [35, 80, 45, 20, 90, 55]
+val=["Pass" if ma>= 35 else "Fail" for ma in marks]
+print(val)
