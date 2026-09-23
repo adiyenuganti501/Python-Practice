@@ -6,7 +6,13 @@ class Car:
     def showdetals(self):
         print(f"Details are {self.name} {self.brand} and {self.year}")
 class Audi(Car):
-    pass
+    def __init__(self,name,brand,year,color):
+        super().__init__(name,brand,year)
+        self.color=color
+        
+    def showColor(self):
+        print(f"The color is {self.color}")
 
-a=Audi("Audi","501",2026)
+a=Audi("Audi","501",2026,"White")
 a.showdetals()
+a.showColor()
