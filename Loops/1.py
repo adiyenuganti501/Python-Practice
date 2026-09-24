@@ -26,9 +26,9 @@ server = {
     "status": "running"
 }
 
+# for k in server:
+#     print(k)
+# for v in server.values():
+#     print(v)
 for k,v in server.items():
     print(k,v)
-for i in range(1,11):
-    if i==5:
-        break
-    print(i)
