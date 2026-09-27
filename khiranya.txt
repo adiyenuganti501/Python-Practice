@@ -1,1 +1,2 @@
-This is Khiranya first file
+This is Khiranya first fileThis is second file in Khirany file
+This is second file in Khirany file
