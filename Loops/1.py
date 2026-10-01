@@ -32,3 +32,9 @@ server = {
 #     print(v)
 for k,v in server.items():
     print(k,v)
+    
+name= "Adinarayana"
+# for ch in name:
+#     print(ch)
+print(name.isupper())
+print(name[::-1].upper())

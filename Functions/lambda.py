@@ -20,3 +20,7 @@ print(aa(5))
 
 bb= lambda x,y:x+y
 print(bb(5,6))
+
+
+val = lambda x: x*x*x
+print(val(5))
